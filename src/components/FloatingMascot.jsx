@@ -1,10 +1,38 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useEffect } from 'react';
+import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import androidMascot from '../assets/android-mascot.png';
 
 const FloatingMascot = () => {
+    // 1. Setup motion values for cursor position (-1 to 1)
+    const mouseX = useMotionValue(0);
+    const mouseY = useMotionValue(0);
+
+    // 2. Track mouse position across the entire window
+    useEffect(() => {
+        const handleMouseMove = (e) => {
+            const x = (e.clientX / window.innerWidth) * 2 - 1;
+            const y = (e.clientY / window.innerHeight) * 2 - 1;
+            mouseX.set(x);
+            mouseY.set(y);
+        };
+        window.addEventListener("mousemove", handleMouseMove);
+        return () => window.removeEventListener("mousemove", handleMouseMove);
+    }, [mouseX, mouseY]);
+
+    // 3. Smooth the values so the animation feels natural and not jittery
+    const smoothOptions = { damping: 40, stiffness: 150 };
+    const smoothX = useSpring(mouseX, smoothOptions);
+    const smoothY = useSpring(mouseY, smoothOptions);
+
+    // 4. Create transforms for the entire head to give a stronger 3D parallax effect
+    // This makes the existing black eyes appear to follow the cursor
+    const headRotateX = useTransform(smoothY, [-1, 1], [15, -15]);
+    const headRotateY = useTransform(smoothX, [-1, 1], [-25, 25]);
+    const headTranslateX = useTransform(smoothX, [-1, 1], [-35, 35]);
+    const headTranslateY = useTransform(smoothY, [-1, 1], [-35, 35]);
+
     return (
-        <div className="relative w-full h-full flex items-center justify-center">
+        <div className="relative w-full h-full flex items-center justify-center pointer-events-none">
 
             {/* Outer glow ring */}
             <motion.div
@@ -20,22 +48,33 @@ const FloatingMascot = () => {
                 className="absolute w-56 h-56 md:w-72 md:h-72 rounded-full bg-primary/30 blur-2xl"
             />
 
-            {/* Android character image with float animation */}
+            {/* Floating Container (handles the up/down float) */}
             <motion.div
                 animate={{ y: [0, -18, 0] }}
                 transition={{ duration: 3.5, repeat: Infinity, ease: 'easeInOut' }}
-                className="relative z-10"
+                className="relative z-10 perspective-[1000px]"
             >
-                <motion.img
-                    src={androidMascot}
-                    alt="Android Mascot"
-                    initial={{ opacity: 0, scale: 0.7, rotateY: -15 }}
-                    animate={{ opacity: 1, scale: 1, rotateY: 0 }}
+                {/* 3D tracking head container (rotates and translates based on cursor) */}
+                <motion.div
+                    style={{
+                        rotateX: headRotateX,
+                        rotateY: headRotateY,
+                        x: headTranslateX,
+                        y: headTranslateY
+                    }}
+                    initial={{ opacity: 0, scale: 0.7 }}
+                    animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.9, ease: 'easeOut' }}
-                    className="w-64 h-auto md:w-80 lg:w-96 drop-shadow-[0_0_40px_rgba(0,230,118,0.6)] select-none"
-                    draggable={false}
-                    style={{ filter: 'drop-shadow(0 0 30px rgba(0, 230, 118, 0.5))' }}
-                />
+                    className="relative"
+                >
+                    <img
+                        src={androidMascot}
+                        alt="Android Mascot"
+                        className="w-64 h-auto md:w-80 lg:w-96 select-none relative z-10"
+                        draggable={false}
+                        style={{ filter: 'drop-shadow(0 0 30px rgba(0, 230, 118, 0.5))' }}
+                    />
+                </motion.div>
             </motion.div>
 
             {/* Orbiting dot decorations */}
