@@ -1,0 +1,394 @@
+{
+    "general": {
+        "skills": [
+            {
+                "name": "Docker",
+                "icon": "devicon-docker-plain"
+            },
+            {
+                "name": "Java",
+                "icon": "devicon-java-plain"
+            },
+            {
+                "name": "Kotlin",
+                "icon": "devicon-kotlin-plain"
+            },
+            {
+                "name": "React",
+                "icon": "devicon-react-original"
+            },
+            {
+                "name": "Spring boot",
+                "icon": "devicon-spring-plain"
+            },
+            {
+                "name": "Tailwind",
+                "icon": "devicon-tailwindcss-plain"
+            },
+            {
+                "name": "Git",
+                "icon": "devicon-git-plain"
+            },
+            {
+                "name": "Swift",
+                "icon": "devicon-swift-plain"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "devicon-javascript-plain"
+            }
+        ]
+    },
+    "en": {
+        "skillTitle": "My Skills",
+        "profile": {
+            "name": "Najib Alejandro Loera Rodriguez",
+            "carrer": "Computer Systems Engineer",
+            "description": "Full Stack Developer. Passionate about building innovative and high-performance applications."
+        },
+        "aboutMe": {
+            "title": "About Me",
+            "description": "Passionate developer with expertise in mobile and web ecosystems, focused on creating seamless user experiences and robust backend systems. I bridge the gap between complex engineering and intuitive design.",
+            "stats": [
+                {
+                    "value": "5+",
+                    "label": "YEARS EXPERIENCE"
+                },
+                {
+                    "value": "40+",
+                    "label": "PROJECTS BUILT"
+                },
+                {
+                    "value": "12",
+                    "label": "CERTIFICATIONS"
+                },
+                {
+                    "value": "100%",
+                    "label": "CLIENT SATISFACTION"
+                }
+            ]
+        },
+        "description": {
+            "greeting": "Hello There!",
+            "me": "I’m passionate about software development and building elegant, functional user experiences. I have experience in iOS and Android with SwiftUI and Jetpack Compose, as well as React for web and Spring Boot for backend systems.",
+            "status": "Currently accepting freelance projects",
+            "btnText": "Download CV",
+            "urlCV": "./CvEng.pdf"
+        },
+        "experience": {
+            "title": "Experience",
+            "info": "Take a look at my projects, certifications, and some of the companies I’ve collaborated with.",
+            "tabsTitle": [
+                "Companies",
+                "Projects",
+                "Certificates"
+            ],
+            "btnText": "View",
+            "cardsExperience": {
+                "projects": [
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg",
+                        "info": [
+                            "Android application designed to securely transmit electoral records and their encrypted data to a web server.",
+                            "Real-time synchronization of over 20,000 images during the 2024 electoral process across eight states simultaneously.",
+                            "Offline functionality to ensure reliability in areas with poor internet connectivity.",
+                            "Pattern recognition system using OpenCV, capable of detecting and classifying four specific shapes to automatically crop the relevant area from images.",
+                            "Local data persistence on the Android device.",
+                            "Real-time geolocation transmission to the web server.",
+                            "User authentication system with secure login."
+                        ],
+                        "text": "Android / Java"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg",
+                        "info": [
+                            "Android application Operations Technician developed for real-time route monitoring across eight states in Mexico.",
+                            "Offline functionality to support areas with limited internet connectivity.",
+                            "Synchronization of photos and relevant route information.",
+                            "Real-time geolocation tracking and transmission to the server.",
+                            "Digital signature module for supervisors within the app, with automatic synchronization when connectivity is restored."
+                        ],
+                        "text": "Android / Kotlin"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-plain.svg",
+                        "info": [
+                            "Android application developed for real-time management of company security operations across 8 states in Mexico.",
+                            "Real-time incident reporting by security personnel.",
+                            "Integrated alarms to trigger scheduled daily tasks for users.",
+                            "User login and authentication system.",
+                            "Local data persistence to ensure offline functionality.",
+                            "Real-time geolocation transmission to the server."
+                        ],
+                        "text": "Android / Kotlin"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/jetpackcompose/jetpackcompose-original.svg",
+                        "info": [
+                            "Application developed to manage digitalized electoral records after election day in Mexico.",
+                            "User login and authentication system.",
+                            "Real-time transmission of registered record data from each warehouse.",
+                            "QR code scanning for retrieving record information.",
+                            "Automatic updates of overall record progress every 10 seconds.",
+                            "Real-time geolocation transmission."
+                        ],
+                        "text": "Android / Kotlin / JetCompose"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg",
+                        "info": [
+                            "A suite of mobile (Android and iOS) and web applications developed for the comprehensive management of patient, parent, and doctor information at the Children's Psychological Training Center.",
+                            "Push notifications for important announcements.",
+                            "User login and authentication system.",
+                            "Registration of authorized personnel.",
+                            "Detailed information listings for each team member within the organization."
+                        ],
+                        "text": "Android, IOS, WEB / Kotlin, Swift, Angular"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg",
+                        "info": [
+                            "Cross-platform application developed for booking apartments in Mazatlán.",
+                            "Notifications for important events and reminders.",
+                            "User login and authentication system.",
+                            "Intuitive calendar interface for selecting reservation dates.",
+                            "Local data persistence to support offline functionality.",
+                            "Reservation history tracking for each user."
+                        ],
+                        "text": "Android, IOS, WEB / Kotlin, Swift, Angular"
+                    }
+                ],
+                "companies": [
+                    {
+                        "urlImage": "https://www.informaticaelectoral.com/images/logo_informatica.png",
+                        "info": [
+                            "Contributed to the development of several key applications for the electoral process, including PREPCASILLA, a mobile app for real-time transmission of electoral reports.",
+                            "Implemented an automated image processing system to validate and crop official documents, ensuring accuracy and fast delivery.",
+                            "Built a route-tracking app for technician installation logistics, improving coordination and operational efficiency."
+                        ],
+                        "date": "04/2023 - Present Culiacán, México"
+                    },
+                    {
+                        "urlImage": "https://www.ie-soluciones.com/images/logo_iesoluciones.png",
+                        "info": [
+                            "Developed a cross-platform app (Android & iOS) for booking tourist apartments, enhancing the user experience from search to reservation. Used SwiftUI and Jetpack Compose to build a clean, intuitive, and consistent interface across platforms."
+                        ],
+                        "date": "04/2023 - Present Culiacán, México"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/apple/apple-original.svg",
+                        "info": [
+                            "Collaborated on the development of an app that connects university students with companies offering housing.",
+                            "Implemented a secure sign-up and login system with personalized user accounts.",
+                            "Developed a feature that allowed users to upload their resumes and automatically send them to registered companies."
+                        ],
+                        "date": "2021 - 04/2022 Durango, México"
+                    }
+                ],
+                "certificates": [
+                    {
+                        "urlPdf": "./certificates/aws.pdf",
+                        "imageUrl": "https://img.icons8.com/color/144/amazon-web-services.png",
+                        "title": "AWS Fundamentals: Going Cloud-Native"
+                    },
+                    {
+                        "urlPdf": "./certificates/cludF.pdf",
+                        "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
+                        "title": "Google Cloud Fundamentals: Core Infrastructure en Español"
+                    },
+                    {
+                        "urlPdf": "./certificates/googleB.pdf",
+                        "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
+                        "title": "Business Transformation with Google Cloud en Español"
+                    },
+                    {
+                        "urlPdf": "./certificates/googleCloud.pdf",
+                        "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
+                        "title": "Reliable Google Cloud Infrastructure: Design and Process"
+                    },
+                    {
+                        "urlPdf": "./certificates/vw.pdf",
+                        "imageUrl": "https://img.icons8.com/color/144/vmware.png",
+                        "title": "Networking and Security Architecture with VMware NSX"
+                    }
+                ]
+            }
+        }
+    },
+    "es": {
+        "skillTitle": "Mis habilidades",
+        "profile": {
+            "name": "Najib Alejandro Loera Rodriguez",
+            "carrer": "Ing. Sistemas Computacionales",
+            "description": "Desarrollador Full Stack. Apasionado por la creación de aplicaciones innovadoras y de alto rendimiento."
+        },
+        "aboutMe": {
+            "title": "Sobre Mí",
+            "description": "Desarrollador apasionado con experiencia en ecosistemas móviles y web, enfocado en crear experiencias de usuario fluidas y sistemas backend robustos. Cierro la brecha entre la ingeniería compleja y el diseño intuitivo.",
+            "stats": [
+                {
+                    "value": "5+",
+                    "label": "AÑOS DE EXPERIENCIA"
+                },
+                {
+                    "value": "40+",
+                    "label": "PROYECTOS"
+                },
+                {
+                    "value": "12",
+                    "label": "CERTIFICACIONES"
+                },
+                {
+                    "value": "100%",
+                    "label": "SATISFACCIÓN"
+                }
+            ]
+        },
+        "description": {
+            "greeting": "¡Hola!",
+            "me": "Me apasiona el desarrollo de software y la creación de experiencias de usuario elegantes y funcionales. Tengo experiencia en iOS y Android con SwiftUI y Jetpack Compose, así como con React para web y Spring Boot para sistemas backend.",
+            "status": "Disponible para proyectos freelance",
+            "btnText": "Descargar CV",
+            "urlCV": "./CvEsp.pdf"
+        },
+        "experience": {
+            "title": "Experiencia",
+            "btnText": "Ver",
+            "info": "Echa un vistazo a mis proyectos, certificados y algunas de las empresas con las que he colaborado.",
+            "tabsTitle": [
+                "Empresas",
+                "Proyectos",
+                "Certificados"
+            ],
+            "cardsExperience": {
+                "projects": [
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg",
+                        "info": [
+                            "Aplicación Android desarrollada para el envío seguro de actas electorales y su respectiva información encriptada a un servidor web.",
+                            "Sincronización en tiempo real de más de 20,000 imágenes durante el proceso electoral 2024 en ocho estados simultáneamente.",
+                            "Modo offline para garantizar la funcionalidad en zonas con conectividad limitada.",
+                            "Sistema de reconocimiento de patrones mediante OpenCV, capaz de detectar y clasificar cuatro figuras específicas para el recorte automático del área relevante en las imágenes.",
+                            "Persistencia de datos local en el dispositivo Android.",
+                            "Envío en tiempo real de geolocalización al servidor web.",
+                            "Sistema de autenticación de usuarios mediante login."
+                        ],
+                        "text": "Android / Java"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg",
+                        "info": [
+                            "Aplicación Android Técnico Operativo desarrollada para el monitoreo en tiempo real de rutas en ocho estados de México.",
+                            "Funcionamiento offline para zonas con conectividad limitada.",
+                            "Sincronización de fotografías e información relevante del recorrido.",
+                            "Envío de geolocalización en tiempo real al servidor.",
+                            "Módulo de firma digital para responsables desde la aplicación, con sincronización automática al restablecer la conexión."
+                        ],
+                        "text": "Android / Kotlin"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-plain.svg",
+                        "info": [
+                            "Aplicación Android desarrollada para la gestión de operaciones de seguridad empresarial en tiempo real, abarcando 8 estados de México.",
+                            "Envío de reportes de incidencias en tiempo real por parte del personal de seguridad.",
+                            "Alarmas integradas para la ejecución de tareas programadas diariamente.",
+                            "Sistema de autenticación de usuarios mediante login.",
+                            "Persistencia de datos local que permite el funcionamiento offline de la aplicación.",
+                            "Envío de geolocalización en tiempo real al servidor."
+                        ],
+                        "text": "Android / Kotlin"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/jetpackcompose/jetpackcompose-original.svg",
+                        "info": [
+                            "Aplicación desarrollada para llevar el control de las actas digitalizadas tras el día de elecciones en México.",
+                            "Sistema de login para autenticación de usuarios.",
+                            "Envío en tiempo real de información de actas registradas en cada bodega.",
+                            "Escaneo de códigos QR para obtener los datos del acta.",
+                            "Actualización del progreso total de actas cada 10 segundos.",
+                            "Envío de geolocalización en tiempo real."
+                        ],
+                        "text": "Android / Kotlin / JetCompose"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg",
+                        "info": [
+                            "Conjunto de aplicaciones móviles (Android e iOS) y plataforma web desarrolladas para la gestión integral de información de pacientes, padres y doctores del Centro de Entrenamiento Psicológico Infantil.",
+                            "Notificaciones automáticas para avisos importantes.",
+                            "Sistema de login y autenticación de usuarios.",
+                            "Registro de personal autorizado.",
+                            "Listado detallado de información de cada colaborador de la organización."
+                        ],
+                        "text": "Android, IOS, WEB / Kotlin, Swift, Angular"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg",
+                        "info": [
+                            "Aplicación multiplataforma desarrollada para la reserva de departamentos en Mazatlán.",
+                            "Notificaciones para eventos y recordatorios importantes.",
+                            "Sistema de login para autenticación de usuarios.",
+                            "Calendario intuitivo para la selección de fechas de reservación.",
+                            "Persistencia de datos local para funcionamiento en modo offline.",
+                            "Historial de reservaciones para cada usuario."
+                        ],
+                        "text": "Android, IOS, WEB / Kotlin, Swift, Angular"
+                    }
+                ],
+                "companies": [
+                    {
+                        "urlImage": "https://www.informaticaelectoral.com/images/logo_informatica.png",
+                        "info": [
+                            "Colaboré en el desarrollo de diversas aplicaciones clave para el proceso electoral, incluyendo PREPCASILLA, una app móvil para el envío en tiempo real de actas electorales.",
+                            "Implementé un sistema automatizado de procesamiento de imágenes para validar y recortar actas oficiales, garantizando precisión y rapidez en su entrega.",
+                            "Desarrollé una aplicación para el seguimiento de rutas de técnicos en instalaciones, mejorando la coordinación y eficiencia operativa."
+                        ],
+                        "date": "04/2023 - Presente Culiacán, México"
+                    },
+                    {
+                        "urlImage": "https://www.ie-soluciones.com/images/logo_iesoluciones.png",
+                        "info": [
+                            "Creé una aplicación multiplataforma (Android e iOS) para la reserva de departamentos turísticos, mejorando la experiencia del usuario desde la búsqueda hasta la confirmación. Utilicé SwiftUI y Jetpack Compose para lograr una interfaz moderna, intuitiva y consistente."
+                        ],
+                        "date": "04/2023 - Presente Culiacán, México"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/apple/apple-original.svg",
+                        "info": [
+                            "Colaboré en el desarrollo de una app que conecta a estudiantes universitarios con empresas que ofrecen residencias.",
+                            "Implementé un sistema seguro de registro e inicio de sesión con cuentas personalizadas.",
+                            "Desarrollé una función que permitía a los usuarios subir su currículum y enviarlo automáticamente a las empresas registradas."
+                        ],
+                        "date": "2021 - 04/2022 Durango, México"
+                    }
+                ],
+                "certificates": [
+                    {
+                        "urlPdf": "./certificates/aws.pdf",
+                        "imageUrl": "https://img.icons8.com/color/144/amazon-web-services.png",
+                        "title": "AWS Fundamentals: Going Cloud-Native"
+                    },
+                    {
+                        "urlPdf": "./certificates/cludF.pdf",
+                        "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
+                        "title": "Google Cloud Fundamentals: Core Infrastructure en Español"
+                    },
+                    {
+                        "urlPdf": "./certificates/googleB.pdf",
+                        "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
+                        "title": "Business Transformation with Google Cloud en Español"
+                    },
+                    {
+                        "urlPdf": "./certificates/googleCloud.pdf",
+                        "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
+                        "title": "Reliable Google Cloud Infrastructure: Design and Process"
+                    },
+                    {
+                        "urlPdf": "./certificates/vw.pdf",
+                        "imageUrl": "https://img.icons8.com/color/144/vmware.png",
+                        "title": "Networking and Security Architecture with VMware NSX"
+                    }
+                ]
+            }
+        }
+    }
+}

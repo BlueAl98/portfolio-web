@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Najib Loera - Portfolio DEBUG</title>
+</head>
+
+<body>
+    <div id="root">Init...</div>
+    <script type="module">
+        console.log('Inline Script: STARTING');
+        import React from 'https://esm.sh/react@18';
+        import ReactDOM from 'https://esm.sh/react-dom@18/client';
+
+        console.log('Inline Script: DEPENDENCIES LOADED');
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(React.createElement('h1', { style: { color: 'red' } }, 'INLINE REACT WORKS'));
+        console.log('Inline Script: RENDER CALLED');
+    </script>
+</body>
+
+</html>
