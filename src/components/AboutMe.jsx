@@ -19,7 +19,18 @@ const AboutMe = () => {
                         transition={{ duration: 0.6 }}
                     >
                         <h2 className="text-3xl xl:text-4xl font-outfit font-bold mb-4">{data.aboutMe.title}</h2>
-                        <div className="w-16 h-1 bg-primary rounded-full"></div>
+                        <div className="w-16 h-1 bg-primary rounded-full mb-8"></div>
+
+                        {data.aboutMe.profilePhoto && (
+                            <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden glass border border-white/10 group">
+                                <img
+                                    src={data.aboutMe.profilePhoto}
+                                    alt={data.profile?.name || "Profile"}
+                                    className="w-full h-full object-cover object-top filter brightness-90 group-hover:brightness-100 group-hover:scale-105 transition-all duration-500"
+                                />
+                                <div className="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-2xl pointer-events-none"></div>
+                            </div>
+                        )}
                     </motion.div>
                 </div>
 

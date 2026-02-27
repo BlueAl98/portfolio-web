@@ -46,7 +46,7 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-wrap gap-4">
-                        <a href={data.description.urlCV} className="btn-primary">
+                        <a href={data.description.urlCV} className="btn-primary" download>
                             <Download size={20} />
                             {data.description.btnText}
                         </a>
