@@ -32,6 +32,6 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
             docker pull najibblue/profile-image-react:latest
-            docker stop profile-image-react || true
-            docker rm profile-image-react || true
-            docker run -d -p 8083:80 --name profile-image-react najibblue/profile-image-react:latest
+            docker stop profile || true
+            docker rm profile || true
+            docker run -d -p 8083:80 --name profile najibblue/profile-image-react:latest
