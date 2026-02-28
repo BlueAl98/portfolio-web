@@ -32,7 +32,7 @@ const Hero = () => {
                     </motion.span>
 
                     <h1 className="text-5xl md:text-7xl font-outfit font-extrabold mb-6 leading-tight">
-                        I'm <span className="text-primary">{data.profile.name.split(' ')[0]}</span> <br />
+                        {data.profile.im} <span className="text-primary">{data.profile.name.split(' ')[0]}</span> <br />
                         {data.profile.name.split(' ').slice(1).join(' ')}
                     </h1>
 

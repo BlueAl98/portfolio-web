@@ -43,6 +43,7 @@
         "skillTitle": "My Skills",
         "profile": {
             "name": "Najib Alejandro Loera Rodriguez",
+            "im": "I'm",
             "carrer": "Computer Systems Engineer",
             "description": "Full Stack Developer. Passionate about building innovative and high-performance applications."
         },
@@ -220,6 +221,7 @@
         "skillTitle": "Mis habilidades",
         "profile": {
             "name": "Najib Alejandro Loera Rodriguez",
+            "im": "Soy",
             "carrer": "Ing. Sistemas Computacionales",
             "description": "Desarrollador Full Stack. Apasionado por la creación de aplicaciones innovadoras y de alto rendimiento."
         },
