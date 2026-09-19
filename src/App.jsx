@@ -28,8 +28,8 @@ function App() {
                         <p className="text-xl text-muted mb-12">
                             {data.description.me}
                         </p>
-                        <a href="mailto:najib_loera@hotmail.com" className="btn-primary text-lg px-10 py-4">
-                            Get In Touch ✉
+                        <a href="mailto:alejandrorod35@gmail.com?subject=Let%27s%20work%20together" className="btn-primary text-lg px-10 py-4">
+                            {data.description.contactBtnText} ✉
                         </a>
                     </div>
                 </section>

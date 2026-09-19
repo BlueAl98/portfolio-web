@@ -36,6 +36,50 @@
             {
                 "name": "JavaScript",
                 "icon": "devicon-javascript-plain"
+            },
+            {
+                "name": "Firebase",
+                "icon": "devicon-firebase-plain"
+            },
+            {
+                "name": "Android Studio",
+                "icon": "devicon-androidstudio-plain"
+            },
+            {
+                "name": "SQLite",
+                "icon": "devicon-sqlite-plain"
+            },
+            {
+                "name": "MySQL",
+                "icon": "devicon-mysql-plain"
+            },
+            {
+                "name": "GitHub Actions",
+                "icon": "devicon-githubactions-plain"
+            },
+            {
+                "name": "Gradle",
+                "icon": "devicon-gradle-plain"
+            },
+            {
+                "name": "Maven",
+                "icon": "devicon-maven-plain"
+            },
+            {
+                "name": "RabbitMQ",
+                "icon": "devicon-rabbitmq-original"
+            },
+            {
+                "name": "IntelliJ IDEA",
+                "icon": "devicon-intellij-plain"
+            },
+            {
+                "name": "Postman",
+                "icon": "devicon-postman-plain"
+            },
+            {
+                "name": "Linux",
+                "icon": "devicon-linux-plain"
             }
         ]
     },
@@ -45,14 +89,14 @@
             "name": "Najib Alejandro Loera Rodriguez",
             "im": "I'm",
             "carrer": "Computer Systems Engineer",
-            "description": "Full Stack Developer. Passionate about building innovative and high-performance applications."
+            "description": "Mobile Developer specialized in Android, iOS & Kotlin Multiplatform (KMP). Passionate about building scalable, secure, high-impact applications."
         },
         "aboutMe": {
             "title": "About Me",
-            "description": "Passionate developer with expertise in mobile and web ecosystems, focused on creating seamless user experiences and robust backend systems. I bridge the gap between complex engineering and intuitive design.",
+            "description": "Mobile developer with 5+ years of experience building native Android (Kotlin, Jetpack Compose) and iOS (Swift, SwiftUI) apps, with a strong focus on Kotlin Multiplatform (KMP) for cross-platform solutions. Skilled in clean architecture, real-time systems, and collaborating on backend services to ship secure, high-impact products.",
             "stats": [
                 {
-                    "value": "4+",
+                    "value": "5+",
                     "label": "YEARS EXPERIENCE"
                 },
                 {
@@ -60,7 +104,7 @@
                     "label": "PROJECTS BUILT"
                 },
                 {
-                    "value": "12",
+                    "value": "5",
                     "label": "CERTIFICATIONS"
                 },
                 {
@@ -72,10 +116,11 @@
         },
         "description": {
             "greeting": "Hello There!",
-            "me": "I’m passionate about software development and building elegant, functional user experiences. I have experience in iOS and Android with SwiftUI and Jetpack Compose, as well as React for web and Spring Boot for backend systems.",
+            "me": "I’m passionate about mobile development and building elegant, high-performance user experiences. I specialize in native Android with Kotlin & Jetpack Compose, have experience with iOS using Swift & SwiftUI, and focus on Kotlin Multiplatform (KMP) to share logic across platforms — collaborating with Spring Boot & Docker on the backend when needed.",
             "status": "Currently accepting freelance projects",
             "btnText": "Download CV",
-            "urlCV": "/CvEng.pdf"
+            "urlCV": "/CvEng.pdf",
+            "contactBtnText": "Contact Me"
         },
         "experience": {
             "title": "Experience",
@@ -158,33 +203,39 @@
                             "Reservation history tracking for each user."
                         ],
                         "text": "Android, IOS, WEB / Kotlin, Swift, Angular"
+                    },
+                    {
+                        "urlImage": "https://img.icons8.com/color/144/dumbbell.png",
+                        "info": [
+                            "Freelance mobile app for workout routines and diet plans.",
+                            "User system with individual progress tracking and daily training notifications.",
+                            "Built a REST API for user and routine registration with Spring Boot and Java."
+                        ],
+                        "text": "Freelance / Spring Boot"
                     }
                 ],
                 "companies": [
                     {
                         "urlImage": "https://www.informaticaelectoral.com/images/logo_informatica.png",
                         "info": [
-                            "Contributed to the development of several key applications for the electoral process, including PREPCASILLA, a mobile app for real-time transmission of electoral reports.",
-                            "Implemented an automated image processing system to validate and crop official documents, ensuring accuracy and fast delivery.",
-                            "Built a route-tracking app for technician installation logistics, improving coordination and operational efficiency."
+                            "Led development of native Android, native iOS, and Kotlin Multiplatform (KMP) mobile applications for large-scale electoral systems.",
+                            "Architected Android & iOS solutions with Jetpack Compose and SwiftUI, including apps like PREPCASILLA for real-time transmission of electoral records.",
+                            "Set up CI/CD pipelines with GitHub Actions and Fastlane for automated testing, builds, and releases.",
+                            "Used MobSF to identify and fix security vulnerabilities in Android and iOS applications.",
+                            "Automated deployments to the Play Store and App Store (TestFlight).",
+                            "Collaborated on scalable, highly-available backend services using Spring Boot, REST APIs, and Docker."
                         ],
                         "date": "04/2023 - Present Culiacán, México"
                     },
                     {
-                        "urlImage": "https://www.ie-soluciones.com/images/logo_iesoluciones.png",
-                        "info": [
-                            "Developed a cross-platform app (Android & iOS) for booking tourist apartments, enhancing the user experience from search to reservation. Used SwiftUI and Jetpack Compose to build a clean, intuitive, and consistent interface across platforms."
-                        ],
-                        "date": "04/2023 - Present Culiacán, México"
-                    },
-                    {
-                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/apple/apple-original.svg",
+                        "urlImage": "/logos/lgShitsu.png",
                         "info": [
                             "Collaborated on the development of an app that connects university students with companies offering housing.",
                             "Implemented a secure sign-up and login system with personalized user accounts.",
-                            "Developed a feature that allowed users to upload their resumes and automatically send them to registered companies."
+                            "Developed a feature that allowed users to upload their resumes and automatically send them to registered companies.",
+                            "Built a REST API with Spring Boot and Java to back up student information."
                         ],
-                        "date": "2021 - 04/2022 Durango, México"
+                        "date": "08/2021 - 04/2022 Durango, México"
                     }
                 ],
                 "certificates": [
@@ -223,14 +274,14 @@
             "name": "Najib Alejandro Loera Rodriguez",
             "im": "Soy",
             "carrer": "Ing. Sistemas Computacionales",
-            "description": "Desarrollador Full Stack. Apasionado por la creación de aplicaciones innovadoras y de alto rendimiento."
+            "description": "Desarrollador Móvil especializado en Android, iOS y Kotlin Multiplatform (KMP). Apasionado por crear aplicaciones escalables, seguras y de alto impacto."
         },
         "aboutMe": {
             "title": "Sobre Mí",
-            "description": "Desarrollador apasionado con experiencia en ecosistemas móviles y web, enfocado en crear experiencias de usuario fluidas y sistemas backend robustos. Cierro la brecha entre la ingeniería compleja y el diseño intuitivo.",
+            "description": "Desarrollador móvil con más de 5 años de experiencia creando aplicaciones nativas para Android (Kotlin, Jetpack Compose) e iOS (Swift, SwiftUI), con fuerte enfoque en Kotlin Multiplatform (KMP) para soluciones multiplataforma. Con experiencia en arquitectura limpia, sistemas en tiempo real y colaboración en servicios backend para entregar productos seguros y de alto impacto.",
             "stats": [
                 {
-                    "value": "4+",
+                    "value": "5+",
                     "label": "AÑOS DE EXPERIENCIA"
                 },
                 {
@@ -238,7 +289,7 @@
                     "label": "PROYECTOS"
                 },
                 {
-                    "value": "12",
+                    "value": "5",
                     "label": "CERTIFICACIONES"
                 },
                 {
@@ -250,10 +301,11 @@
         },
         "description": {
             "greeting": "¡Hola!",
-            "me": "Me apasiona el desarrollo de software y la creación de experiencias de usuario elegantes y funcionales. Tengo experiencia en iOS y Android con SwiftUI y Jetpack Compose, así como con React para web y Spring Boot para sistemas backend.",
+            "me": "Me apasiona el desarrollo móvil y la creación de experiencias de usuario elegantes y de alto rendimiento. Me especializo en Android nativo con Kotlin y Jetpack Compose, tengo experiencia en iOS con Swift y SwiftUI, y me enfoco en Kotlin Multiplatform (KMP) para compartir lógica entre plataformas, colaborando con Spring Boot y Docker en el backend cuando es necesario.",
             "status": "Disponible para proyectos freelance",
             "btnText": "Descargar CV",
-            "urlCV": "/CvEsp.pdf"
+            "urlCV": "/CvEsp.pdf",
+            "contactBtnText": "Contáctame"
         },
         "experience": {
             "title": "Experiencia",
@@ -336,33 +388,39 @@
                             "Historial de reservaciones para cada usuario."
                         ],
                         "text": "Android, IOS, WEB / Kotlin, Swift, Angular"
+                    },
+                    {
+                        "urlImage": "https://img.icons8.com/color/144/dumbbell.png",
+                        "info": [
+                            "Aplicación móvil freelance para rutinas de ejercicio y planes de dieta.",
+                            "Sistema de usuarios con progreso individual y notificaciones diarias de entrenamiento.",
+                            "Creación de una Api rest para el registro de usuarios y rutinas con Spring Boot y Java."
+                        ],
+                        "text": "Freelance / Spring Boot"
                     }
                 ],
                 "companies": [
                     {
                         "urlImage": "https://www.informaticaelectoral.com/images/logo_informatica.png",
                         "info": [
-                            "Colaboré en el desarrollo de diversas aplicaciones clave para el proceso electoral, incluyendo PREPCASILLA, una app móvil para el envío en tiempo real de actas electorales.",
-                            "Implementé un sistema automatizado de procesamiento de imágenes para validar y recortar actas oficiales, garantizando precisión y rapidez en su entrega.",
-                            "Desarrollé una aplicación para el seguimiento de rutas de técnicos en instalaciones, mejorando la coordinación y eficiencia operativa."
+                            "Lideró el desarrollo de aplicaciones móviles Android Nativo, iOS Nativo y Kotlin Multiplatform (KMP) para sistemas electorales de gran escala.",
+                            "Arquitectura y desarrollo de soluciones Android & iOS con Jetpack Compose y SwiftUI, incluyendo apps como PREPCASILLA para el envío en tiempo real de actas electorales.",
+                            "Implementación de CI/CD con GitHub Actions y Fastlane para testing, builds y releases automatizados.",
+                            "Uso de MobSF para analizar y corregir vulnerabilidades de seguridad en aplicaciones Android e iOS.",
+                            "Automatización de despliegues en Play Store y App Store (TestFlight).",
+                            "Colaboración en servicios backend escalables y de alta disponibilidad con Spring Boot, APIs REST y Docker."
                         ],
                         "date": "04/2023 - Presente Culiacán, México"
                     },
                     {
-                        "urlImage": "https://www.ie-soluciones.com/images/logo_iesoluciones.png",
-                        "info": [
-                            "Creé una aplicación multiplataforma (Android e iOS) para la reserva de departamentos turísticos, mejorando la experiencia del usuario desde la búsqueda hasta la confirmación. Utilicé SwiftUI y Jetpack Compose para lograr una interfaz moderna, intuitiva y consistente."
-                        ],
-                        "date": "04/2023 - Presente Culiacán, México"
-                    },
-                    {
-                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/apple/apple-original.svg",
+                        "urlImage": "/logos/lgShitsu.png",
                         "info": [
                             "Colaboré en el desarrollo de una app que conecta a estudiantes universitarios con empresas que ofrecen residencias.",
                             "Implementé un sistema seguro de registro e inicio de sesión con cuentas personalizadas.",
-                            "Desarrollé una función que permitía a los usuarios subir su currículum y enviarlo automáticamente a las empresas registradas."
+                            "Desarrollé una función que permitía a los usuarios subir su currículum y enviarlo automáticamente a las empresas registradas.",
+                            "Creación de una Api rest con Spring Boot y Java para respaldo de información de estudiantes."
                         ],
-                        "date": "2021 - 04/2022 Durango, México"
+                        "date": "08/2021 - 04/2022 Durango, México"
                     }
                 ],
                 "certificates": [
