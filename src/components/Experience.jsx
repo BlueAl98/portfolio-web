@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
-import { Briefcase, FolderOpen, GraduationCap, ChevronRight, ExternalLink } from 'lucide-react';
+import { Briefcase, FolderOpen, GraduationCap, ChevronRight, ExternalLink, Lock } from 'lucide-react';
 
 const Experience = () => {
     const { data } = useLanguage();
@@ -77,9 +77,20 @@ const Experience = () => {
                                     </li>
                                 ))}
                             </ul>
-                            <button className="text-sm font-bold text-primary flex items-center gap-2 group-hover:translate-x-1 transition-transform">
-                                {data.experience.btnText} <ExternalLink size={14} />
-                            </button>
+                            {project.urlRepo ? (
+                                <a
+                                    href={project.urlRepo}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-sm font-bold text-primary flex items-center gap-2 group-hover:translate-x-1 transition-transform"
+                                >
+                                    {data.experience.btnText} <ExternalLink size={14} />
+                                </a>
+                            ) : (
+                                <span className="text-sm font-bold text-muted flex items-center gap-2 cursor-default">
+                                    {data.experience.btnTextPrivate} <Lock size={14} />
+                                </span>
+                            )}
                         </motion.div>
                     ))}
                 </div>
