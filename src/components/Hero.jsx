@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
 import FloatingMascot from './FloatingMascot';
 import { Download, ChevronRight } from 'lucide-react';
+import { withBase } from '../utils/assetPath';
 
 
 const Hero = () => {
@@ -46,7 +47,7 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-wrap gap-4">
-                        <a href={data.description.urlCV} className="btn-primary" download>
+                        <a href={withBase(data.description.urlCV)} className="btn-primary" download>
                             <Download size={20} />
                             {data.description.btnText}
                         </a>

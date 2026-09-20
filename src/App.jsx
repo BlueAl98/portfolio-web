@@ -4,10 +4,11 @@ import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
+import { Github, Linkedin, MessageCircle } from 'lucide-react';
 import { useLanguage } from './context/LanguageContext';
 
 function App() {
-    const { data } = useLanguage();
+    const { data, common } = useLanguage();
     if (!data) return null;
     return (
         <div className="relative min-h-screen bg-bg-dark text-white selection:bg-primary/30 scroll-smooth">
@@ -28,16 +29,48 @@ function App() {
                         <p className="text-xl text-muted mb-12">
                             {data.description.me}
                         </p>
-                        <a href="mailto:najib_loera@hotmail.com" className="btn-primary text-lg px-10 py-4">
-                            Get In Touch ✉
+                        <a href="mailto:alejandrorod35@gmail.com?subject=Let%27s%20work%20together" className="btn-primary text-lg px-10 py-4">
+                            {data.description.contactBtnText} ✉
                         </a>
+                        <div className="flex items-center justify-center gap-4 mt-8">
+                            <a
+                                href={common.social.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="GitHub"
+                                title="GitHub"
+                                className="w-11 h-11 flex items-center justify-center rounded-full border border-white/10 text-muted hover:text-primary hover:border-primary/40 hover:bg-white/5 transition-colors"
+                            >
+                                <Github size={20} />
+                            </a>
+                            <a
+                                href={common.social.linkedin}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="LinkedIn"
+                                title="LinkedIn"
+                                className="w-11 h-11 flex items-center justify-center rounded-full border border-white/10 text-muted hover:text-primary hover:border-primary/40 hover:bg-white/5 transition-colors"
+                            >
+                                <Linkedin size={20} />
+                            </a>
+                            <a
+                                href={common.social.whatsapp}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="WhatsApp"
+                                title={`WhatsApp: ${common.social.phoneDisplay}`}
+                                className="w-11 h-11 flex items-center justify-center rounded-full border border-white/10 text-muted hover:text-primary hover:border-primary/40 hover:bg-white/5 transition-colors"
+                            >
+                                <MessageCircle size={20} />
+                            </a>
+                        </div>
                     </div>
                 </section>
             </main>
 
             <footer className="py-12 px-6 border-t border-white/5 text-center text-sm text-muted">
                 <p>© {new Date().getFullYear()} Najib Alejandro Loera Rodriguez. All rights reserved.</p>
-                <p className="mt-2 opacity-50">Culiacán, México • Computer Systems Engineer</p>
+                <p className="mt-2 opacity-50">Durango, México • Computer Systems Engineer</p>
             </footer>
         </div>
     );

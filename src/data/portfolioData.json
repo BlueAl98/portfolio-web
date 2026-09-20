@@ -36,8 +36,58 @@
             {
                 "name": "JavaScript",
                 "icon": "devicon-javascript-plain"
+            },
+            {
+                "name": "Firebase",
+                "icon": "devicon-firebase-plain"
+            },
+            {
+                "name": "Android Studio",
+                "icon": "devicon-androidstudio-plain"
+            },
+            {
+                "name": "SQLite",
+                "icon": "devicon-sqlite-plain"
+            },
+            {
+                "name": "MySQL",
+                "icon": "devicon-mysql-plain"
+            },
+            {
+                "name": "GitHub Actions",
+                "icon": "devicon-githubactions-plain"
+            },
+            {
+                "name": "Gradle",
+                "icon": "devicon-gradle-plain"
+            },
+            {
+                "name": "Maven",
+                "icon": "devicon-maven-plain"
+            },
+            {
+                "name": "RabbitMQ",
+                "icon": "devicon-rabbitmq-original"
+            },
+            {
+                "name": "IntelliJ IDEA",
+                "icon": "devicon-intellij-plain"
+            },
+            {
+                "name": "Postman",
+                "icon": "devicon-postman-plain"
+            },
+            {
+                "name": "Linux",
+                "icon": "devicon-linux-plain"
             }
-        ]
+        ],
+        "social": {
+            "github": "https://github.com/BlueAl98",
+            "linkedin": "https://www.linkedin.com/in/najib-alejandro-loera-rodr%C3%ADguez-219648194",
+            "whatsapp": "https://wa.me/526751153007",
+            "phoneDisplay": "+52 675 115 3007"
+        }
     },
     "en": {
         "skillTitle": "My Skills",
@@ -45,14 +95,14 @@
             "name": "Najib Alejandro Loera Rodriguez",
             "im": "I'm",
             "carrer": "Computer Systems Engineer",
-            "description": "Full Stack Developer. Passionate about building innovative and high-performance applications."
+            "description": "Mobile Developer specialized in Android, iOS & Kotlin Multiplatform (KMP). Passionate about building scalable, secure, high-impact applications."
         },
         "aboutMe": {
             "title": "About Me",
-            "description": "Passionate developer with expertise in mobile and web ecosystems, focused on creating seamless user experiences and robust backend systems. I bridge the gap between complex engineering and intuitive design.",
+            "description": "Mobile developer with 5+ years of experience building native Android (Kotlin, Jetpack Compose) and iOS (Swift, SwiftUI) apps, with a strong focus on Kotlin Multiplatform (KMP) for cross-platform solutions. Skilled in clean architecture, real-time systems, and collaborating on backend services to ship secure, high-impact products.",
             "stats": [
                 {
-                    "value": "4+",
+                    "value": "5+",
                     "label": "YEARS EXPERIENCE"
                 },
                 {
@@ -60,7 +110,7 @@
                     "label": "PROJECTS BUILT"
                 },
                 {
-                    "value": "12",
+                    "value": "5",
                     "label": "CERTIFICATIONS"
                 },
                 {
@@ -68,14 +118,15 @@
                     "label": "CLIENT SATISFACTION"
                 }
             ],
-            "profilePhoto": "/profilePhoto.jpeg"
+            "profilePhoto": "profilePhoto.jpeg"
         },
         "description": {
             "greeting": "Hello There!",
-            "me": "I’m passionate about software development and building elegant, functional user experiences. I have experience in iOS and Android with SwiftUI and Jetpack Compose, as well as React for web and Spring Boot for backend systems.",
+            "me": "I’m passionate about mobile development and building elegant, high-performance user experiences. I specialize in native Android with Kotlin & Jetpack Compose, have experience with iOS using Swift & SwiftUI, and focus on Kotlin Multiplatform (KMP) to share logic across platforms — collaborating with Spring Boot & Docker on the backend when needed.",
             "status": "Currently accepting freelance projects",
             "btnText": "Download CV",
-            "urlCV": "/CvEng.pdf"
+            "urlCV": "CvEng.pdf",
+            "contactBtnText": "Contact Me"
         },
         "experience": {
             "title": "Experience",
@@ -86,10 +137,44 @@
                 "Certificates"
             ],
             "btnText": "View",
+            "btnTextPrivate": "Private",
             "cardsExperience": {
                 "projects": [
                     {
-                        "urlImage": "/logos/lgPcasilla.png",
+                        "urlImage": "https://img.icons8.com/color/144/language.png",
+                        "info": [
+                            "Android app to learn and practice phrases with spaced-repetition flashcards, quizzes, and text-to-speech pronunciation.",
+                            "Built with Jetpack Compose, Clean Architecture and a multi-module MVVM setup.",
+                            "Uses Hilt for dependency injection, Room & DataStore for persistence, and WorkManager for scheduled review reminders.",
+                            "Unit and instrumentation tests with JUnit4, Mockito and Turbine; CI pipeline via GitHub Actions."
+                        ],
+                        "text": "Android / Kotlin, Jetpack Compose",
+                        "urlRepo": "https://github.com/BlueAl98/Phrasalito"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg",
+                        "info": [
+                            "Microservices-based CV analyzer: extracts text from PDF/DOCX resumes, runs an AI evaluation, and emails a detailed report.",
+                            "Orchestrates independent services — document extraction, AI analysis, and email delivery — connected via RabbitMQ.",
+                            "Built with Spring Boot, WebClient and Reactor for async processing, plus a Semaphore-based concurrent request limiter.",
+                            "Fully containerized with Docker Compose for one-command deployment of all microservices."
+                        ],
+                        "text": "Microservices / Spring Boot, RabbitMQ, Docker",
+                        "urlRepo": "https://github.com/BlueAl98/cvAnalisis"
+                    },
+                    {
+                        "urlImage": "https://img.icons8.com/color/144/artificial-intelligence.png",
+                        "info": [
+                            "Lightweight Spring Boot (Kotlin) microservice that connects to Ollama LLMs for text generation and AI-powered CV analysis.",
+                            "Exposes a general-purpose /ai prompt endpoint and a specialized /ai/cvAnalisis endpoint returning structured match scores and feedback.",
+                            "Uses Spring WebFlux WebClient, Jakarta validation, and a unified API response model with global exception handling.",
+                            "Modular AI-provider architecture, ready to plug in additional models beyond Ollama."
+                        ],
+                        "text": "Microservice / Spring Boot, Kotlin, Ollama",
+                        "urlRepo": "https://github.com/BlueAl98/micro-ai"
+                    },
+                    {
+                        "urlImage": "logos/lgPcasilla.png",
                         "info": [
                             "Android application designed to securely transmit electoral records and their encrypted data to a web server.",
                             "Real-time synchronization of over 20,000 images during the 2024 electoral process across eight states simultaneously.",
@@ -99,10 +184,11 @@
                             "Real-time geolocation transmission to the web server.",
                             "User authentication system with secure login."
                         ],
-                        "text": "Android / Java"
+                        "text": "Android / Java",
+                        "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgTeco.png",
+                        "urlImage": "logos/lgTeco.png",
                         "info": [
                             "Android application Operations Technician developed for real-time route monitoring across eight states in Mexico.",
                             "Offline functionality to support areas with limited internet connectivity.",
@@ -110,10 +196,11 @@
                             "Real-time geolocation tracking and transmission to the server.",
                             "Digital signature module for supervisors within the app, with automatic synchronization when connectivity is restored."
                         ],
-                        "text": "Android / Kotlin"
+                        "text": "Android / Kotlin",
+                        "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgSeg.png",
+                        "urlImage": "logos/lgSeg.png",
                         "info": [
                             "Android application developed for real-time management of company security operations across 8 states in Mexico.",
                             "Real-time incident reporting by security personnel.",
@@ -122,10 +209,11 @@
                             "Local data persistence to ensure offline functionality.",
                             "Real-time geolocation transmission to the server."
                         ],
-                        "text": "Android / Kotlin"
+                        "text": "Android / Kotlin",
+                        "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgBodega.png",
+                        "urlImage": "logos/lgBodega.png",
                         "info": [
                             "Application developed to manage digitalized electoral records after election day in Mexico.",
                             "User login and authentication system.",
@@ -134,10 +222,11 @@
                             "Automatic updates of overall record progress every 10 seconds.",
                             "Real-time geolocation transmission."
                         ],
-                        "text": "Android / Kotlin / JetCompose"
+                        "text": "Android / Kotlin / JetCompose",
+                        "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgCepi.png",
+                        "urlImage": "logos/lgCepi.png",
                         "info": [
                             "A suite of mobile (Android and iOS) and web applications developed for the comprehensive management of patient, parent, and doctor information at the Children's Psychological Training Center.",
                             "Push notifications for important announcements.",
@@ -145,10 +234,11 @@
                             "Registration of authorized personnel.",
                             "Detailed information listings for each team member within the organization."
                         ],
-                        "text": "Android, IOS, WEB / Kotlin, Swift, Angular"
+                        "text": "Android, IOS, WEB / Kotlin, Swift, Angular",
+                        "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgShitsu.png",
+                        "urlImage": "logos/lgShitsu.png",
                         "info": [
                             "Cross-platform application developed for booking apartments in Mazatlán.",
                             "Notifications for important events and reminders.",
@@ -157,59 +247,67 @@
                             "Local data persistence to support offline functionality.",
                             "Reservation history tracking for each user."
                         ],
-                        "text": "Android, IOS, WEB / Kotlin, Swift, Angular"
+                        "text": "Android, IOS, WEB / Kotlin, Swift, Angular",
+                        "urlRepo": null
+                    },
+                    {
+                        "urlImage": "https://img.icons8.com/color/144/dumbbell.png",
+                        "info": [
+                            "Freelance mobile app for workout routines and diet plans.",
+                            "User system with individual progress tracking and daily training notifications.",
+                            "Built a REST API for user and routine registration with Spring Boot and Java."
+                        ],
+                        "text": "Freelance / Spring Boot",
+                        "urlRepo": null
                     }
                 ],
                 "companies": [
                     {
                         "urlImage": "https://www.informaticaelectoral.com/images/logo_informatica.png",
                         "info": [
-                            "Contributed to the development of several key applications for the electoral process, including PREPCASILLA, a mobile app for real-time transmission of electoral reports.",
-                            "Implemented an automated image processing system to validate and crop official documents, ensuring accuracy and fast delivery.",
-                            "Built a route-tracking app for technician installation logistics, improving coordination and operational efficiency."
+                            "Led development of native Android, native iOS, and Kotlin Multiplatform (KMP) mobile applications for large-scale electoral systems.",
+                            "Architected Android & iOS solutions with Jetpack Compose and SwiftUI, including apps like PREPCASILLA for real-time transmission of electoral records.",
+                            "Set up CI/CD pipelines with GitHub Actions and Fastlane for automated testing, builds, and releases.",
+                            "Used MobSF to identify and fix security vulnerabilities in Android and iOS applications.",
+                            "Automated deployments to the Play Store and App Store (TestFlight).",
+                            "Collaborated on scalable, highly-available backend services using Spring Boot, REST APIs, and Docker."
                         ],
                         "date": "04/2023 - Present Culiacán, México"
                     },
                     {
-                        "urlImage": "https://www.ie-soluciones.com/images/logo_iesoluciones.png",
-                        "info": [
-                            "Developed a cross-platform app (Android & iOS) for booking tourist apartments, enhancing the user experience from search to reservation. Used SwiftUI and Jetpack Compose to build a clean, intuitive, and consistent interface across platforms."
-                        ],
-                        "date": "04/2023 - Present Culiacán, México"
-                    },
-                    {
-                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/apple/apple-original.svg",
+                        "urlImage": "logos/lgShitsu.png",
                         "info": [
                             "Collaborated on the development of an app that connects university students with companies offering housing.",
                             "Implemented a secure sign-up and login system with personalized user accounts.",
-                            "Developed a feature that allowed users to upload their resumes and automatically send them to registered companies."
+                            "Developed a feature that allowed users to upload their resumes and automatically send them to registered companies.",
+                            "Built a REST API with Spring Boot and Java to back up student information."
                         ],
-                        "date": "2021 - 04/2022 Durango, México"
+                        "date": "08/2021 - 04/2022 Durango, México"
                     }
                 ],
                 "certificates": [
                     {
-                        "urlPdf": "/certificates/aws.pdf",
+                        "urlPdf": "certificates/aws.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/amazon-web-services.png",
                         "title": "AWS Fundamentals: Going Cloud-Native"
                     },
                     {
-                        "urlPdf": "/certificates/cludF.pdf",
+                        "urlPdf": "certificates/cludF.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
                         "title": "Google Cloud Fundamentals: Core Infrastructure en Español"
                     },
                     {
-                        "urlPdf": "/certificates/googleB.pdf",
+                        "urlPdf": "certificates/googleB.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
                         "title": "Business Transformation with Google Cloud en Español"
                     },
                     {
-                        "urlPdf": "/certificates/googleCloud.pdf",
+                        "urlPdf": "certificates/googleCloud.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
                         "title": "Reliable Google Cloud Infrastructure: Design and Process"
                     },
                     {
-                        "urlPdf": "/certificates/vw.pdf",
+                        "urlPdf": "certificates/vw.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/vmware.png",
                         "title": "Networking and Security Architecture with VMware NSX"
                     }
@@ -223,14 +321,14 @@
             "name": "Najib Alejandro Loera Rodriguez",
             "im": "Soy",
             "carrer": "Ing. Sistemas Computacionales",
-            "description": "Desarrollador Full Stack. Apasionado por la creación de aplicaciones innovadoras y de alto rendimiento."
+            "description": "Desarrollador Móvil especializado en Android, iOS y Kotlin Multiplatform (KMP). Apasionado por crear aplicaciones escalables, seguras y de alto impacto."
         },
         "aboutMe": {
             "title": "Sobre Mí",
-            "description": "Desarrollador apasionado con experiencia en ecosistemas móviles y web, enfocado en crear experiencias de usuario fluidas y sistemas backend robustos. Cierro la brecha entre la ingeniería compleja y el diseño intuitivo.",
+            "description": "Desarrollador móvil con más de 5 años de experiencia creando aplicaciones nativas para Android (Kotlin, Jetpack Compose) e iOS (Swift, SwiftUI), con fuerte enfoque en Kotlin Multiplatform (KMP) para soluciones multiplataforma. Con experiencia en arquitectura limpia, sistemas en tiempo real y colaboración en servicios backend para entregar productos seguros y de alto impacto.",
             "stats": [
                 {
-                    "value": "4+",
+                    "value": "5+",
                     "label": "AÑOS DE EXPERIENCIA"
                 },
                 {
@@ -238,7 +336,7 @@
                     "label": "PROYECTOS"
                 },
                 {
-                    "value": "12",
+                    "value": "5",
                     "label": "CERTIFICACIONES"
                 },
                 {
@@ -246,18 +344,20 @@
                     "label": "SATISFACCIÓN"
                 }
             ],
-            "profilePhoto": "/profilePhoto.jpeg"
+            "profilePhoto": "profilePhoto.jpeg"
         },
         "description": {
             "greeting": "¡Hola!",
-            "me": "Me apasiona el desarrollo de software y la creación de experiencias de usuario elegantes y funcionales. Tengo experiencia en iOS y Android con SwiftUI y Jetpack Compose, así como con React para web y Spring Boot para sistemas backend.",
+            "me": "Me apasiona el desarrollo móvil y la creación de experiencias de usuario elegantes y de alto rendimiento. Me especializo en Android nativo con Kotlin y Jetpack Compose, tengo experiencia en iOS con Swift y SwiftUI, y me enfoco en Kotlin Multiplatform (KMP) para compartir lógica entre plataformas, colaborando con Spring Boot y Docker en el backend cuando es necesario.",
             "status": "Disponible para proyectos freelance",
             "btnText": "Descargar CV",
-            "urlCV": "/CvEsp.pdf"
+            "urlCV": "CvEsp.pdf",
+            "contactBtnText": "Contáctame"
         },
         "experience": {
             "title": "Experiencia",
             "btnText": "Ver",
+            "btnTextPrivate": "Privado",
             "info": "Echa un vistazo a mis proyectos, certificados y algunas de las empresas con las que he colaborado.",
             "tabsTitle": [
                 "Empresas",
@@ -267,7 +367,40 @@
             "cardsExperience": {
                 "projects": [
                     {
-                        "urlImage": "/logos/lgPcasilla.png",
+                        "urlImage": "https://img.icons8.com/color/144/language.png",
+                        "info": [
+                            "App de Android para aprender y practicar frases con tarjetas de repetición espaciada, quizzes y pronunciación por texto a voz (TTS).",
+                            "Construida con Jetpack Compose, Clean Architecture y una arquitectura multi-módulo MVVM.",
+                            "Usa Hilt para inyección de dependencias, Room y DataStore para persistencia, y WorkManager para recordatorios de repaso programados.",
+                            "Pruebas unitarias y de instrumentación con JUnit4, Mockito y Turbine; pipeline de CI con GitHub Actions."
+                        ],
+                        "text": "Android / Kotlin, Jetpack Compose",
+                        "urlRepo": "https://github.com/BlueAl98/Phrasalito"
+                    },
+                    {
+                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg",
+                        "info": [
+                            "Analizador de CVs basado en microservicios: extrae texto de currículums en PDF/DOCX, ejecuta una evaluación con IA y envía un reporte detallado por correo.",
+                            "Orquesta servicios independientes — extracción de documentos, análisis con IA y envío de correo — conectados vía RabbitMQ.",
+                            "Construido con Spring Boot, WebClient y Reactor para procesamiento asíncrono, más un limitador de solicitudes concurrentes basado en Semaphore.",
+                            "Totalmente containerizado con Docker Compose para desplegar todos los microservicios con un solo comando."
+                        ],
+                        "text": "Microservicios / Spring Boot, RabbitMQ, Docker",
+                        "urlRepo": "https://github.com/BlueAl98/cvAnalisis"
+                    },
+                    {
+                        "urlImage": "https://img.icons8.com/color/144/artificial-intelligence.png",
+                        "info": [
+                            "Microservicio ligero en Spring Boot (Kotlin) que se conecta a modelos Ollama para generación de texto y análisis de CVs con IA.",
+                            "Expone un endpoint general /ai para prompts y uno especializado /ai/cvAnalisis que devuelve puntajes de coincidencia y retroalimentación estructurada.",
+                            "Usa Spring WebFlux WebClient, validación con Jakarta y un modelo de respuesta unificado con manejo global de excepciones.",
+                            "Arquitectura modular de proveedores de IA, lista para integrar otros modelos además de Ollama."
+                        ],
+                        "text": "Microservicio / Spring Boot, Kotlin, Ollama",
+                        "urlRepo": "https://github.com/BlueAl98/micro-ai"
+                    },
+                    {
+                        "urlImage": "logos/lgPcasilla.png",
                         "info": [
                             "Aplicación Android desarrollada para el envío seguro de actas electorales y su respectiva información encriptada a un servidor web.",
                             "Sincronización en tiempo real de más de 20,000 imágenes durante el proceso electoral 2024 en ocho estados simultáneamente.",
@@ -277,10 +410,11 @@
                             "Envío en tiempo real de geolocalización al servidor web.",
                             "Sistema de autenticación de usuarios mediante login."
                         ],
-                        "text": "Android / Java"
+                        "text": "Android / Java",
+                        "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgTeco.png",
+                        "urlImage": "logos/lgTeco.png",
                         "info": [
                             "Aplicación Android Técnico Operativo desarrollada para el monitoreo en tiempo real de rutas en ocho estados de México.",
                             "Funcionamiento offline para zonas con conectividad limitada.",
@@ -288,10 +422,11 @@
                             "Envío de geolocalización en tiempo real al servidor.",
                             "Módulo de firma digital para responsables desde la aplicación, con sincronización automática al restablecer la conexión."
                         ],
-                        "text": "Android / Kotlin"
+                        "text": "Android / Kotlin",
+                        "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgSeg.png",
+                        "urlImage": "logos/lgSeg.png",
                         "info": [
                             "Aplicación Android desarrollada para la gestión de operaciones de seguridad empresarial en tiempo real, abarcando 8 estados de México.",
                             "Envío de reportes de incidencias en tiempo real por parte del personal de seguridad.",
@@ -300,10 +435,11 @@
                             "Persistencia de datos local que permite el funcionamiento offline de la aplicación.",
                             "Envío de geolocalización en tiempo real al servidor."
                         ],
-                        "text": "Android / Kotlin"
+                        "text": "Android / Kotlin",
+                        "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgBodega.png",
+                        "urlImage": "logos/lgBodega.png",
                         "info": [
                             "Aplicación desarrollada para llevar el control de las actas digitalizadas tras el día de elecciones en México.",
                             "Sistema de login para autenticación de usuarios.",
@@ -312,10 +448,11 @@
                             "Actualización del progreso total de actas cada 10 segundos.",
                             "Envío de geolocalización en tiempo real."
                         ],
-                        "text": "Android / Kotlin / JetCompose"
+                        "text": "Android / Kotlin / JetCompose",
+                        "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgCepi.png",
+                        "urlImage": "logos/lgCepi.png",
                         "info": [
                             "Conjunto de aplicaciones móviles (Android e iOS) y plataforma web desarrolladas para la gestión integral de información de pacientes, padres y doctores del Centro de Entrenamiento Psicológico Infantil.",
                             "Notificaciones automáticas para avisos importantes.",
@@ -323,10 +460,11 @@
                             "Registro de personal autorizado.",
                             "Listado detallado de información de cada colaborador de la organización."
                         ],
-                        "text": "Android, IOS, WEB / Kotlin, Swift, Angular"
+                        "text": "Android, IOS, WEB / Kotlin, Swift, Angular",
+                        "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgShitsu.png",
+                        "urlImage": "logos/lgShitsu.png",
                         "info": [
                             "Aplicación multiplataforma desarrollada para la reserva de departamentos en Mazatlán.",
                             "Notificaciones para eventos y recordatorios importantes.",
@@ -335,59 +473,67 @@
                             "Persistencia de datos local para funcionamiento en modo offline.",
                             "Historial de reservaciones para cada usuario."
                         ],
-                        "text": "Android, IOS, WEB / Kotlin, Swift, Angular"
+                        "text": "Android, IOS, WEB / Kotlin, Swift, Angular",
+                        "urlRepo": null
+                    },
+                    {
+                        "urlImage": "https://img.icons8.com/color/144/dumbbell.png",
+                        "info": [
+                            "Aplicación móvil freelance para rutinas de ejercicio y planes de dieta.",
+                            "Sistema de usuarios con progreso individual y notificaciones diarias de entrenamiento.",
+                            "Creación de una Api rest para el registro de usuarios y rutinas con Spring Boot y Java."
+                        ],
+                        "text": "Freelance / Spring Boot",
+                        "urlRepo": null
                     }
                 ],
                 "companies": [
                     {
                         "urlImage": "https://www.informaticaelectoral.com/images/logo_informatica.png",
                         "info": [
-                            "Colaboré en el desarrollo de diversas aplicaciones clave para el proceso electoral, incluyendo PREPCASILLA, una app móvil para el envío en tiempo real de actas electorales.",
-                            "Implementé un sistema automatizado de procesamiento de imágenes para validar y recortar actas oficiales, garantizando precisión y rapidez en su entrega.",
-                            "Desarrollé una aplicación para el seguimiento de rutas de técnicos en instalaciones, mejorando la coordinación y eficiencia operativa."
+                            "Lideró el desarrollo de aplicaciones móviles Android Nativo, iOS Nativo y Kotlin Multiplatform (KMP) para sistemas electorales de gran escala.",
+                            "Arquitectura y desarrollo de soluciones Android & iOS con Jetpack Compose y SwiftUI, incluyendo apps como PREPCASILLA para el envío en tiempo real de actas electorales.",
+                            "Implementación de CI/CD con GitHub Actions y Fastlane para testing, builds y releases automatizados.",
+                            "Uso de MobSF para analizar y corregir vulnerabilidades de seguridad en aplicaciones Android e iOS.",
+                            "Automatización de despliegues en Play Store y App Store (TestFlight).",
+                            "Colaboración en servicios backend escalables y de alta disponibilidad con Spring Boot, APIs REST y Docker."
                         ],
                         "date": "04/2023 - Presente Culiacán, México"
                     },
                     {
-                        "urlImage": "https://www.ie-soluciones.com/images/logo_iesoluciones.png",
-                        "info": [
-                            "Creé una aplicación multiplataforma (Android e iOS) para la reserva de departamentos turísticos, mejorando la experiencia del usuario desde la búsqueda hasta la confirmación. Utilicé SwiftUI y Jetpack Compose para lograr una interfaz moderna, intuitiva y consistente."
-                        ],
-                        "date": "04/2023 - Presente Culiacán, México"
-                    },
-                    {
-                        "urlImage": "https://raw.githubusercontent.com/devicons/devicon/master/icons/apple/apple-original.svg",
+                        "urlImage": "logos/lgShitsu.png",
                         "info": [
                             "Colaboré en el desarrollo de una app que conecta a estudiantes universitarios con empresas que ofrecen residencias.",
                             "Implementé un sistema seguro de registro e inicio de sesión con cuentas personalizadas.",
-                            "Desarrollé una función que permitía a los usuarios subir su currículum y enviarlo automáticamente a las empresas registradas."
+                            "Desarrollé una función que permitía a los usuarios subir su currículum y enviarlo automáticamente a las empresas registradas.",
+                            "Creación de una Api rest con Spring Boot y Java para respaldo de información de estudiantes."
                         ],
-                        "date": "2021 - 04/2022 Durango, México"
+                        "date": "08/2021 - 04/2022 Durango, México"
                     }
                 ],
                 "certificates": [
                     {
-                        "urlPdf": "/certificates/aws.pdf",
+                        "urlPdf": "certificates/aws.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/amazon-web-services.png",
                         "title": "AWS Fundamentals: Going Cloud-Native"
                     },
                     {
-                        "urlPdf": "/certificates/cludF.pdf",
+                        "urlPdf": "certificates/cludF.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
                         "title": "Google Cloud Fundamentals: Core Infrastructure en Español"
                     },
                     {
-                        "urlPdf": "/certificates/googleB.pdf",
+                        "urlPdf": "certificates/googleB.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
                         "title": "Business Transformation with Google Cloud en Español"
                     },
                     {
-                        "urlPdf": "/certificates/googleCloud.pdf",
+                        "urlPdf": "certificates/googleCloud.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
                         "title": "Reliable Google Cloud Infrastructure: Design and Process"
                     },
                     {
-                        "urlPdf": "/certificates/vw.pdf",
+                        "urlPdf": "certificates/vw.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/vmware.png",
                         "title": "Networking and Security Architecture with VMware NSX"
                     }

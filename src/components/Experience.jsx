@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
-import { Briefcase, FolderOpen, GraduationCap, ChevronRight, ExternalLink } from 'lucide-react';
+import { withBase } from '../utils/assetPath';
+import { Briefcase, FolderOpen, GraduationCap, ChevronRight, ExternalLink, Lock } from 'lucide-react';
 
 const Experience = () => {
     const { data } = useLanguage();
@@ -30,7 +31,7 @@ const Experience = () => {
                 >
                     <div className="flex flex-col md:flex-row gap-8 items-start">
                         <div className="w-16 h-16 rounded-xl bg-white/5 p-3 flex items-center justify-center shrink-0 border border-white/10 group-hover:border-primary/50 transition-colors">
-                            <img src={company.urlImage} alt="logo" className="max-w-full max-h-full object-contain" />
+                            <img src={withBase(company.urlImage)} alt="logo" className="max-w-full max-h-full object-contain" />
                         </div>
                         <div className="flex-1">
                             <div className="flex justify-between items-start mb-4">
@@ -63,7 +64,7 @@ const Experience = () => {
                         >
                             <div className="flex items-center gap-4 mb-6">
                                 <div className="w-12 h-12 rounded-lg bg-white/5 p-2 flex items-center justify-center border border-white/10 group-hover:bg-primary/10 group-hover:border-primary/30 transition-all">
-                                    <img src={project.urlImage} alt="" className="w-full h-full object-contain" />
+                                    <img src={withBase(project.urlImage)} alt="" className="w-full h-full object-contain" />
                                 </div>
                                 <div>
                                     <h4 className="font-outfit font-bold">{project.text}</h4>
@@ -77,9 +78,20 @@ const Experience = () => {
                                     </li>
                                 ))}
                             </ul>
-                            <button className="text-sm font-bold text-primary flex items-center gap-2 group-hover:translate-x-1 transition-transform">
-                                {data.experience.btnText} <ExternalLink size={14} />
-                            </button>
+                            {project.urlRepo ? (
+                                <a
+                                    href={project.urlRepo}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-sm font-bold text-primary flex items-center gap-2 group-hover:translate-x-1 transition-transform"
+                                >
+                                    {data.experience.btnText} <ExternalLink size={14} />
+                                </a>
+                            ) : (
+                                <span className="text-sm font-bold text-muted flex items-center gap-2 cursor-default">
+                                    {data.experience.btnTextPrivate} <Lock size={14} />
+                                </span>
+                            )}
                         </motion.div>
                     ))}
                 </div>
@@ -92,7 +104,7 @@ const Experience = () => {
                     {items.map((cert, idx) => (
                         <motion.a
                             key={idx}
-                            href={cert.urlPdf}
+                            href={withBase(cert.urlPdf)}
                             target="_blank"
                             rel="noopener noreferrer"
                             initial={{ opacity: 0, y: 10 }}
