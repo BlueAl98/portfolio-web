@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
+import { withBase } from '../utils/assetPath';
 
 const AboutMe = () => {
     const { data } = useLanguage();
@@ -24,7 +25,7 @@ const AboutMe = () => {
                         {data.aboutMe.profilePhoto && (
                             <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden glass border border-white/10 group">
                                 <img
-                                    src={data.aboutMe.profilePhoto}
+                                    src={withBase(data.aboutMe.profilePhoto)}
                                     alt={data.profile?.name || "Profile"}
                                     className="w-full h-full object-cover object-top filter brightness-90 group-hover:brightness-100 group-hover:scale-105 transition-all duration-500"
                                 />

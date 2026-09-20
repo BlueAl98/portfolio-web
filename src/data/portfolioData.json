@@ -118,14 +118,14 @@
                     "label": "CLIENT SATISFACTION"
                 }
             ],
-            "profilePhoto": "/profilePhoto.jpeg"
+            "profilePhoto": "profilePhoto.jpeg"
         },
         "description": {
             "greeting": "Hello There!",
             "me": "I’m passionate about mobile development and building elegant, high-performance user experiences. I specialize in native Android with Kotlin & Jetpack Compose, have experience with iOS using Swift & SwiftUI, and focus on Kotlin Multiplatform (KMP) to share logic across platforms — collaborating with Spring Boot & Docker on the backend when needed.",
             "status": "Currently accepting freelance projects",
             "btnText": "Download CV",
-            "urlCV": "/CvEng.pdf",
+            "urlCV": "CvEng.pdf",
             "contactBtnText": "Contact Me"
         },
         "experience": {
@@ -174,7 +174,7 @@
                         "urlRepo": "https://github.com/BlueAl98/micro-ai"
                     },
                     {
-                        "urlImage": "/logos/lgPcasilla.png",
+                        "urlImage": "logos/lgPcasilla.png",
                         "info": [
                             "Android application designed to securely transmit electoral records and their encrypted data to a web server.",
                             "Real-time synchronization of over 20,000 images during the 2024 electoral process across eight states simultaneously.",
@@ -188,7 +188,7 @@
                         "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgTeco.png",
+                        "urlImage": "logos/lgTeco.png",
                         "info": [
                             "Android application Operations Technician developed for real-time route monitoring across eight states in Mexico.",
                             "Offline functionality to support areas with limited internet connectivity.",
@@ -200,7 +200,7 @@
                         "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgSeg.png",
+                        "urlImage": "logos/lgSeg.png",
                         "info": [
                             "Android application developed for real-time management of company security operations across 8 states in Mexico.",
                             "Real-time incident reporting by security personnel.",
@@ -213,7 +213,7 @@
                         "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgBodega.png",
+                        "urlImage": "logos/lgBodega.png",
                         "info": [
                             "Application developed to manage digitalized electoral records after election day in Mexico.",
                             "User login and authentication system.",
@@ -226,7 +226,7 @@
                         "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgCepi.png",
+                        "urlImage": "logos/lgCepi.png",
                         "info": [
                             "A suite of mobile (Android and iOS) and web applications developed for the comprehensive management of patient, parent, and doctor information at the Children's Psychological Training Center.",
                             "Push notifications for important announcements.",
@@ -238,7 +238,7 @@
                         "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgShitsu.png",
+                        "urlImage": "logos/lgShitsu.png",
                         "info": [
                             "Cross-platform application developed for booking apartments in Mazatlán.",
                             "Notifications for important events and reminders.",
@@ -275,7 +275,7 @@
                         "date": "04/2023 - Present Culiacán, México"
                     },
                     {
-                        "urlImage": "/logos/lgShitsu.png",
+                        "urlImage": "logos/lgShitsu.png",
                         "info": [
                             "Collaborated on the development of an app that connects university students with companies offering housing.",
                             "Implemented a secure sign-up and login system with personalized user accounts.",
@@ -287,27 +287,27 @@
                 ],
                 "certificates": [
                     {
-                        "urlPdf": "/certificates/aws.pdf",
+                        "urlPdf": "certificates/aws.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/amazon-web-services.png",
                         "title": "AWS Fundamentals: Going Cloud-Native"
                     },
                     {
-                        "urlPdf": "/certificates/cludF.pdf",
+                        "urlPdf": "certificates/cludF.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
                         "title": "Google Cloud Fundamentals: Core Infrastructure en Español"
                     },
                     {
-                        "urlPdf": "/certificates/googleB.pdf",
+                        "urlPdf": "certificates/googleB.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
                         "title": "Business Transformation with Google Cloud en Español"
                     },
                     {
-                        "urlPdf": "/certificates/googleCloud.pdf",
+                        "urlPdf": "certificates/googleCloud.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
                         "title": "Reliable Google Cloud Infrastructure: Design and Process"
                     },
                     {
-                        "urlPdf": "/certificates/vw.pdf",
+                        "urlPdf": "certificates/vw.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/vmware.png",
                         "title": "Networking and Security Architecture with VMware NSX"
                     }
@@ -344,14 +344,14 @@
                     "label": "SATISFACCIÓN"
                 }
             ],
-            "profilePhoto": "/profilePhoto.jpeg"
+            "profilePhoto": "profilePhoto.jpeg"
         },
         "description": {
             "greeting": "¡Hola!",
             "me": "Me apasiona el desarrollo móvil y la creación de experiencias de usuario elegantes y de alto rendimiento. Me especializo en Android nativo con Kotlin y Jetpack Compose, tengo experiencia en iOS con Swift y SwiftUI, y me enfoco en Kotlin Multiplatform (KMP) para compartir lógica entre plataformas, colaborando con Spring Boot y Docker en el backend cuando es necesario.",
             "status": "Disponible para proyectos freelance",
             "btnText": "Descargar CV",
-            "urlCV": "/CvEsp.pdf",
+            "urlCV": "CvEsp.pdf",
             "contactBtnText": "Contáctame"
         },
         "experience": {
@@ -400,7 +400,7 @@
                         "urlRepo": "https://github.com/BlueAl98/micro-ai"
                     },
                     {
-                        "urlImage": "/logos/lgPcasilla.png",
+                        "urlImage": "logos/lgPcasilla.png",
                         "info": [
                             "Aplicación Android desarrollada para el envío seguro de actas electorales y su respectiva información encriptada a un servidor web.",
                             "Sincronización en tiempo real de más de 20,000 imágenes durante el proceso electoral 2024 en ocho estados simultáneamente.",
@@ -414,7 +414,7 @@
                         "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgTeco.png",
+                        "urlImage": "logos/lgTeco.png",
                         "info": [
                             "Aplicación Android Técnico Operativo desarrollada para el monitoreo en tiempo real de rutas en ocho estados de México.",
                             "Funcionamiento offline para zonas con conectividad limitada.",
@@ -426,7 +426,7 @@
                         "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgSeg.png",
+                        "urlImage": "logos/lgSeg.png",
                         "info": [
                             "Aplicación Android desarrollada para la gestión de operaciones de seguridad empresarial en tiempo real, abarcando 8 estados de México.",
                             "Envío de reportes de incidencias en tiempo real por parte del personal de seguridad.",
@@ -439,7 +439,7 @@
                         "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgBodega.png",
+                        "urlImage": "logos/lgBodega.png",
                         "info": [
                             "Aplicación desarrollada para llevar el control de las actas digitalizadas tras el día de elecciones en México.",
                             "Sistema de login para autenticación de usuarios.",
@@ -452,7 +452,7 @@
                         "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgCepi.png",
+                        "urlImage": "logos/lgCepi.png",
                         "info": [
                             "Conjunto de aplicaciones móviles (Android e iOS) y plataforma web desarrolladas para la gestión integral de información de pacientes, padres y doctores del Centro de Entrenamiento Psicológico Infantil.",
                             "Notificaciones automáticas para avisos importantes.",
@@ -464,7 +464,7 @@
                         "urlRepo": null
                     },
                     {
-                        "urlImage": "/logos/lgShitsu.png",
+                        "urlImage": "logos/lgShitsu.png",
                         "info": [
                             "Aplicación multiplataforma desarrollada para la reserva de departamentos en Mazatlán.",
                             "Notificaciones para eventos y recordatorios importantes.",
@@ -501,7 +501,7 @@
                         "date": "04/2023 - Presente Culiacán, México"
                     },
                     {
-                        "urlImage": "/logos/lgShitsu.png",
+                        "urlImage": "logos/lgShitsu.png",
                         "info": [
                             "Colaboré en el desarrollo de una app que conecta a estudiantes universitarios con empresas que ofrecen residencias.",
                             "Implementé un sistema seguro de registro e inicio de sesión con cuentas personalizadas.",
@@ -513,27 +513,27 @@
                 ],
                 "certificates": [
                     {
-                        "urlPdf": "/certificates/aws.pdf",
+                        "urlPdf": "certificates/aws.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/amazon-web-services.png",
                         "title": "AWS Fundamentals: Going Cloud-Native"
                     },
                     {
-                        "urlPdf": "/certificates/cludF.pdf",
+                        "urlPdf": "certificates/cludF.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
                         "title": "Google Cloud Fundamentals: Core Infrastructure en Español"
                     },
                     {
-                        "urlPdf": "/certificates/googleB.pdf",
+                        "urlPdf": "certificates/googleB.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
                         "title": "Business Transformation with Google Cloud en Español"
                     },
                     {
-                        "urlPdf": "/certificates/googleCloud.pdf",
+                        "urlPdf": "certificates/googleCloud.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/google-cloud.png",
                         "title": "Reliable Google Cloud Infrastructure: Design and Process"
                     },
                     {
-                        "urlPdf": "/certificates/vw.pdf",
+                        "urlPdf": "certificates/vw.pdf",
                         "imageUrl": "https://img.icons8.com/color/144/vmware.png",
                         "title": "Networking and Security Architecture with VMware NSX"
                     }
